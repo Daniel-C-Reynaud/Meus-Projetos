@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+     text-align: center;
+     text-transform: uppercase;
+     font-family: Arial, Helvetica, sans-serif;
+     background-image: url('https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+main {
+     padding: 10px 10px 30px 10px;
+     margin: auto;
+     min-width: 480px;
+     max-width: 1000px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     background-color: #fff;
+     translate: -50% -50%;
+     height: 500px;
+     border-radius: 10px;
+     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.699);
+}
+
+p#preview {
+     margin: 10px -10px 0 -10px;
+}
+
+p#law {
+     font: bold 0.6em Arial;
+}
+
+table {
+     border-collapse: collapse;
+     margin: auto;
+     margin-top: 70px;
+     
+}
+
+tr:nth-child(even) {
+     background-color: lightgray;
+}
+
+th, td {
+     border: 1px solid black;
+     padding: 5px 10px;
+}
+
+th {
+     background-color: gray;
+     color: #fff;
+}
+
+td{
+     text-transform: capitalize;
+     text-align: left;
+}
+
+caption {
+     font-size: 0.8em;
+     padding: 3px;
+     background-color: lightgray;
+}
+
+.abr {
+     text-align: right;
+}
