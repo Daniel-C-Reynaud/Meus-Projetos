@@ -15,7 +15,7 @@ function clicar() {
           res.style.backgroundColor = 'white'
           res.style.color = 'black'
      } else if (sep == 'MX') {
-          res.innerHTML = '<strong>Mexicndo</strong>'
+          res.innerHTML = '<strong>Mexicano</strong>'
           res.style.backgroundColor = 'white'
           res.style.color = 'black'
      } else if (sep == 'UK') {
